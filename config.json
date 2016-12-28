@@ -1,0 +1,21 @@
+{
+    "port" : "8080",
+    "security": {
+        "tokenLife" : "100000"
+    },
+    "mongoose": {
+        "uri": "mongodb://localhost:27017/child_controll"
+    },
+    "twilio": {
+        "authToken": "014250766e91be964c5630efdc692077",
+        "accountSid": "ACe33e206a82ab3ca3aaf962809b1af272",
+        "senderNumber": "+12513337698",
+        "defaultCountryCode": "+38"
+    },
+    "firebase": {
+        "notifications": {
+            "server_key": "AIzaSyA6S0ymJrAMD0ASDWXfuQ2uLBcPflOpbZg",
+            "sender_id": "862359379268"
+        }
+    }
+}
